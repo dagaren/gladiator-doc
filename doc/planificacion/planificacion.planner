@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project name="Proyecto Gladiator" company="" manager="" phase="" project-start="20110215T000000Z" mrproject-version="2" calendar="1">
+<project name="Proyecto Gladiator" company="" manager="" phase="" project-start="20111015T000000Z" mrproject-version="2" calendar="1">
   <properties/>
   <phases/>
   <calendars>
@@ -20,76 +20,76 @@
     </calendar>
   </calendars>
   <tasks>
-    <task id="1" name="Estudio del dominio de la aplicacion" note="" work="576000" start="20110215T000000Z" end="20110314T170000Z" work-start="20110215T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="2" name="Especificaci&#xF3;n de requisitos" note="" work="144000" start="20110314T170000Z" end="20110321T170000Z" work-start="20110315T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="1" name="Estudio del dominio de la aplicaci&#xF3;n" note="" work="576000" start="20111015T000000Z" end="20111111T170000Z" work-start="20111017T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="2" name="Especificaci&#xF3;n de requisitos generales" note="" work="144000" start="20111111T170000Z" end="20111118T170000Z" work-start="20111114T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="1" type="FS"/>
       </predecessors>
-      <task id="3" name="Identificaci&#xF3;n de requisitos" note="" work="86400" start="20110314T170000Z" end="20110317T170000Z" work-start="20110315T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="4" name="Priorizaci&#xF3;n de requisitos" note="" work="57600" start="20110317T170000Z" end="20110321T170000Z" work-start="20110318T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="3" name="Identificaci&#xF3;n de requisitos" note="" work="86400" start="20111111T170000Z" end="20111116T170000Z" work-start="20111114T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="4" name="Priorizaci&#xF3;n de requisitos" note="" work="57600" start="20111116T170000Z" end="20111118T170000Z" work-start="20111117T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="3" type="FS"/>
         </predecessors>
       </task>
     </task>
-    <task id="5" name="Desarrollo de prototipo inicial" note="" work="1296000" start="20110321T170000Z" end="20110523T170000Z" work-start="20110322T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="5" name="Desarrollo arquitectura b&#xE1;sica" note="" work="1584000" start="20111118T170000Z" end="20120203T170000Z" work-start="20111121T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="2" type="FS"/>
       </predecessors>
-      <task id="6" name="An&#xE1;lisis" note="" work="288000" start="20110321T170000Z" end="20110404T170000Z" work-start="20110322T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="7" name="Dise&#xF1;o arquitectura" note="" work="288000" start="20110404T170000Z" end="20110418T170000Z" work-start="20110405T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="6" name="An&#xE1;lisis" note="" work="288000" start="20111118T170000Z" end="20111202T170000Z" work-start="20111121T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="7" name="Dise&#xF1;o" note="" work="432000" start="20111202T170000Z" end="20111223T170000Z" work-start="20111205T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="6" type="FS"/>
         </predecessors>
       </task>
-      <task id="8" name="Implementaci&#xF3;n" note="" work="576000" start="20110418T170000Z" end="20110516T170000Z" work-start="20110419T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="8" name="Implementaci&#xF3;n" note="" work="576000" start="20111223T170000Z" end="20120120T170000Z" work-start="20111226T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="7" type="FS"/>
         </predecessors>
       </task>
-      <task id="9" name="Pruebas de prototipo" note="" work="144000" start="20110516T170000Z" end="20110523T170000Z" work-start="20110517T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="9" name="Pruebas de prototipo" note="" work="288000" start="20120120T170000Z" end="20120203T170000Z" work-start="20120123T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="8" type="FS"/>
         </predecessors>
       </task>
     </task>
-    <task id="10" name="Desarrollo primera evoluci&#xF3;n" note="" work="1296000" start="20110523T170000Z" end="20110725T170000Z" work-start="20110524T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="10" name="Segunda iteraci&#xF3;n" note="" work="950400" start="20120203T170000Z" end="20120321T170000Z" work-start="20120206T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="5" type="FS"/>
       </predecessors>
-      <task id="11" name="An&#xE1;lisis de nuevas caracter&#xED;sticas" note="" work="288000" start="20110523T170000Z" end="20110606T170000Z" work-start="20110524T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="12" name="Dise&#xF1;o" note="" work="288000" start="20110606T170000Z" end="20110620T170000Z" work-start="20110607T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="11" name="An&#xE1;lisis de nuevas caracter&#xED;sticas" note="" work="144000" start="20120203T170000Z" end="20120210T170000Z" work-start="20120206T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="12" name="Dise&#xF1;o" note="" work="230400" start="20120210T170000Z" end="20120222T170000Z" work-start="20120213T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="11" type="FS"/>
         </predecessors>
       </task>
-      <task id="13" name="Implementaci&#xF3;n" note="" work="576000" start="20110620T170000Z" end="20110718T170000Z" work-start="20110621T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="13" name="Implementaci&#xF3;n" note="" work="432000" start="20120222T170000Z" end="20120314T170000Z" work-start="20120223T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="12" type="FS"/>
         </predecessors>
       </task>
-      <task id="14" name="Pruebas" note="" work="144000" start="20110718T170000Z" end="20110725T170000Z" work-start="20110719T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="14" name="Pruebas" note="" work="144000" start="20120314T170000Z" end="20120321T170000Z" work-start="20120315T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="13" type="FS"/>
         </predecessors>
       </task>
     </task>
-    <task id="15" name="Desarrollo segunda evoluci&#xF3;n" note="" work="1296000" start="20110725T170000Z" end="20110926T170000Z" work-start="20110726T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="15" name="Tercera iteraci&#xF3;n" note="" work="950400" start="20120321T170000Z" end="20120507T170000Z" work-start="20120322T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="10" type="FS"/>
       </predecessors>
-      <task id="16" name="An&#xE1;lisis de caracter&#xED;sticas" note="" work="288000" start="20110725T170000Z" end="20110808T170000Z" work-start="20110726T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="17" name="Dise&#xF1;o" note="" work="288000" start="20110808T170000Z" end="20110822T170000Z" work-start="20110809T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="16" name="An&#xE1;lisis de nuevas caracter&#xED;sticas" note="" work="144000" start="20120321T170000Z" end="20120328T170000Z" work-start="20120322T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="17" name="Dise&#xF1;o" note="" work="230400" start="20120328T170000Z" end="20120409T170000Z" work-start="20120329T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="16" type="FS"/>
         </predecessors>
       </task>
-      <task id="18" name="Implementacion" note="" work="576000" start="20110822T170000Z" end="20110919T170000Z" work-start="20110823T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="18" name="Implementacion" note="" work="432000" start="20120409T170000Z" end="20120430T170000Z" work-start="20120410T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="17" type="FS"/>
         </predecessors>
       </task>
-      <task id="19" name="Pruebas" note="" work="144000" start="20110919T170000Z" end="20110926T170000Z" work-start="20110920T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="19" name="Pruebas" note="" work="144000" start="20120430T170000Z" end="20120507T170000Z" work-start="20120501T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="18" type="FS"/>
         </predecessors>
