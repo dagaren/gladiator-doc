@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="minimax.svg"
+   inkscape:export-filename="/home/dagaren/proyectos/gladiator-documentacion/doc/diagramas/posiciones/minimax.png"
+   inkscape:export-xdpi="72.571426"
+   inkscape:export-ydpi="72.571426">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2824"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2838"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2860"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2860-8"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2860-1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2860-9"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2860-19"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3001"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3048"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3048-2"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3048-5"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3048-7"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3048-4"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3048-28"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3132"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3938"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3965"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3965-9"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3965-5"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4033"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4033-3"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4033-9"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4033-5"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4033-7"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4033-4"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4117"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4177"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4177-7"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4218"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4218-1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4261"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4261-5"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2936"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2950"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2964"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2978"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2992"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3006"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3020"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3069"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3083"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3097"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3111"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3125"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3139"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3153"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98"
+     inkscape:cx="381.23339"
+     inkscape:cy="882.48861"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1136"
+     inkscape:window-height="863"
+     inkscape:window-x="538"
+     inkscape:window-y="86"
+     inkscape:window-maximized="0"
+     inkscape:snap-page="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2883"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="-60"
+       y="652.36218"
+       id="text3036"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3038"
+         x="-60"
+         y="652.36218"
+         style="font-size:16px">Posición A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="240"
+       y="382.36218"
+       id="text3036-3"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3038-6"
+         x="240"
+         y="382.36218"
+         style="font-size:16px">Posición B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="240"
+       y="902.36218"
+       id="text3036-33"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3038-2"
+         x="240"
+         y="902.36218"
+         style="font-size:16px">Posición C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="540"
+       y="252.36218"
+       id="text3036-1"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3038-3"
+         x="540"
+         y="252.36218"
+         style="font-size:16px">Posición D</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="540"
+       y="512.36218"
+       id="text3036-8"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3038-5"
+         x="540"
+         y="512.36218"
+         style="font-size:16px">Posición E</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="550"
+       y="772.36218"
+       id="text3036-0"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3038-64"
+         x="550"
+         y="772.36218"
+         style="font-size:16px">Posición F</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="540"
+       y="1032.3622"
+       id="text3036-87"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3038-57"
+         x="540"
+         y="1032.3622"
+         style="font-size:16px">Posición G</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.10125649;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4.40502609, 4.40502609;stroke-dashoffset:0.2202513"
+       d="M 130,1272.3622 130,132.36218"
+       id="path3122"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.1251477;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4.50059094, 4.50059094;stroke-dashoffset:0.22502955"
+       d="M 430,1272.3622 430,82.362183"
+       id="path3122-0"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="500"
+       y="102.36218"
+       id="text3918"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         x="500"
+         y="102.36218"
+         id="tspan3922"
+         style="font-size:16px">Posiciones terminales</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="50"
+       y="102.36218"
+       id="text3924"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3926"
+         x="50"
+         y="102.36218"
+         style="font-size:16px">Posiciones no terminales</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="710"
+       y="362.36218"
+       id="text3918-1"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         x="710"
+         y="362.36218"
+         id="tspan3922-8"
+         style="font-size:16px">puntuación</tspan><tspan
+         sodipodi:role="line"
+         x="710"
+         y="382.36218"
+         style="font-size:16px"
+         id="tspan3955">= 0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="720"
+       y="622.36218"
+       id="text3918-1-8"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         x="720"
+         y="622.36218"
+         id="tspan3922-8-1"
+         style="font-size:16px">puntuación</tspan><tspan
+         sodipodi:role="line"
+         x="720"
+         y="642.36218"
+         style="font-size:16px"
+         id="tspan3955-4">= +2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="710"
+       y="882.36218"
+       id="text3918-1-6"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         x="710"
+         y="882.36218"
+         id="tspan3922-8-7"
+         style="font-size:16px">puntuación</tspan><tspan
+         sodipodi:role="line"
+         x="710"
+         y="902.36218"
+         style="font-size:16px"
+         id="tspan3955-6">= -4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="710"
+       y="1142.3622"
+       id="text3918-1-0"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         x="710"
+         y="1142.3622"
+         id="tspan3922-8-16"
+         style="font-size:16px">puntuación</tspan><tspan
+         sodipodi:role="line"
+         x="710"
+         y="1162.3622"
+         style="font-size:16px"
+         id="tspan3955-65">= -2</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.10194623px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 90,712.36218 c 80,-170 80,-170 80,-170"
+       id="path4011"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.97590005px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 90,812.36218 80,150"
+       id="path4013"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.21889877px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 390,442.36218 80,-130"
+       id="path4015"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.21889877px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 390,542.36218 80,130"
+       id="path4019"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.21889877px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 390,962.36218 80,-130"
+       id="path4021"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.21889877px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 390,1062.3622 80,130"
+       id="path4023"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="80"
+       y="602.36218"
+       id="text3036-3-1"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3038-6-5"
+         x="80"
+         y="602.36218"
+         style="font-size:16px">Bb2xc3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="80"
+       y="932.36218"
+       id="text3036-3-3"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3038-6-2"
+         x="80"
+         y="932.36218"
+         style="font-size:16px">Rd5xa5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="390"
+       y="342.36218"
+       id="text3036-3-8"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3038-6-7"
+         x="390"
+         y="342.36218"
+         style="font-size:16px">Ra5xd5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="390"
+       y="662.36218"
+       id="text3036-3-81"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3038-6-6"
+         x="390"
+         y="662.36218"
+         style="font-size:16px">Bg7xc3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="380"
+       y="862.36218"
+       id="text3036-3-4"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3038-6-77"
+         x="380"
+         y="862.36218"
+         style="font-size:16px">Qc3xa5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="380"
+       y="1182.3622"
+       id="text3036-3-87"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3038-6-23"
+         x="380"
+         y="1182.3622"
+         style="font-size:16px">Qc3xb2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="46.938774"
+       y="146.23973"
+       id="text4105"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan4107"
+         x="46.938774"
+         y="146.23973" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="-90"
+       y="162.36218"
+       id="text3924-9"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3926-1"
+         x="-90"
+         y="162.36218"
+         style="font-size:16px">Turno: blancas</tspan><tspan
+         sodipodi:role="line"
+         x="-90"
+         y="182.36218"
+         style="font-size:16px"
+         id="tspan4167">Nodos maximizadores</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="500"
+       y="162.36218"
+       id="text3924-9-8"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3926-1-6"
+         x="500"
+         y="162.36218"
+         style="font-size:16px">Turno: blancas</tspan><tspan
+         sodipodi:role="line"
+         x="500"
+         y="182.36218"
+         style="font-size:16px"
+         id="tspan4167-0">Nodos maximizadores</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="200"
+       y="162.36218"
+       id="text3924-9-1"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         id="tspan3926-1-7"
+         x="200"
+         y="162.36218"
+         style="font-size:16px">Turno: negras</tspan><tspan
+         sodipodi:role="line"
+         x="200"
+         y="182.36218"
+         style="font-size:16px"
+         id="tspan4167-4">Nodos minimizadores</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="250"
+       y="642.36218"
+       id="text3918-1-86"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         x="250"
+         y="642.36218"
+         id="tspan3922-8-2"
+         style="font-size:16px">puntuación</tspan><tspan
+         sodipodi:role="line"
+         x="250"
+         y="662.36218"
+         style="font-size:16px"
+         id="tspan4238">calculada</tspan><tspan
+         sodipodi:role="line"
+         x="250"
+         y="682.36218"
+         style="font-size:16px"
+         id="tspan3955-9">= 0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="250"
+       y="1162.3622"
+       id="text3918-1-86-3"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         x="250"
+         y="1162.3622"
+         id="tspan3922-8-2-6"
+         style="font-size:16px">puntuación</tspan><tspan
+         sodipodi:role="line"
+         x="250"
+         y="1182.3622"
+         style="font-size:16px"
+         id="tspan4238-3">calculada</tspan><tspan
+         sodipodi:role="line"
+         x="250"
+         y="1202.3622"
+         style="font-size:16px"
+         id="tspan3955-9-5">= -4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="-50"
+       y="912.36218"
+       id="text3918-1-86-1"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654"><tspan
+         sodipodi:role="line"
+         x="-50"
+         y="912.36218"
+         id="tspan3922-8-2-9"
+         style="font-size:16px">puntuación</tspan><tspan
+         sodipodi:role="line"
+         x="-50"
+         y="932.36218"
+         style="font-size:16px"
+         id="tspan4238-9">calculada</tspan><tspan
+         sodipodi:role="line"
+         x="-50"
+         y="952.36218"
+         style="font-size:16px"
+         id="tspan3955-9-2">= 0</tspan></text>
+    <image
+       y="662.36218"
+       x="-132"
+       id="image3071"
+       height="222"
+       width="222"
+       xlink:href="file:///home/dagaren/proyectos/gladiator-documentacion/doc/diagramas/posiciones/minimax_position_a.png"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654" />
+    <image
+       y="392.36218"
+       x="168"
+       id="image3085"
+       height="222"
+       width="222"
+       xlink:href="file:///home/dagaren/proyectos/gladiator-documentacion/doc/diagramas/posiciones/minimax_position_b.png"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654" />
+    <image
+       y="912.36218"
+       x="168"
+       id="image3099"
+       height="222"
+       width="222"
+       xlink:href="file:///home/dagaren/proyectos/gladiator-documentacion/doc/diagramas/posiciones/minimax_position_c.png"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654" />
+    <image
+       y="262.36218"
+       x="468"
+       id="image3113"
+       height="222"
+       width="222"
+       xlink:href="file:///home/dagaren/proyectos/gladiator-documentacion/doc/diagramas/posiciones/minimax_position_d.png"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654" />
+    <image
+       y="522.36218"
+       x="470"
+       id="image3127"
+       height="222"
+       width="222"
+       xlink:href="file:///home/dagaren/proyectos/gladiator-documentacion/doc/diagramas/posiciones/minimax_position_e.png"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654" />
+    <image
+       y="782.36218"
+       x="470"
+       id="image3141"
+       height="222"
+       width="222"
+       xlink:href="file:///home/dagaren/proyectos/gladiator-documentacion/doc/diagramas/posiciones/minimax_position_f.png"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654" />
+    <image
+       y="1042.3622"
+       x="468"
+       id="image3155"
+       height="222"
+       width="222"
+       xlink:href="file:///home/dagaren/proyectos/gladiator-documentacion/doc/diagramas/posiciones/minimax_position_g.png"
+       inkscape:export-filename="/home/dagaren/Escritorio/image2826.png"
+       inkscape:export-xdpi="68.463654"
+       inkscape:export-ydpi="68.463654" />
+  </g>
+</svg>
